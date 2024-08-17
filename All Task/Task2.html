@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <form action="#">
+        <div class="nav">
+            <img src="/ict_d.png" alt="" id="pic1" style="margin-left: 20px;">
+            <img src="/pc.png" alt="" id="pic2" style="margin-left: 380px;">
+            <img src="/program.jpeg" alt="" style="margin-left: 370px;">
+        </div>
+        <hr>
+        <ul>
+            <li><a href="#" style="width: 100px;">Home</a></li>
+            <li><a href="#" style="width: 170px;">Course Module-2024</a></li>
+            <li><a href="#" style="width: 120px;">Class Schedule</a></li>
+            <li><a href="#" style="width: 110px;">Success Story</a></li>
+            <li><a href="#" style="width: 100px;">Attendance</a></li>
+            <li><a href="#" style="width: 100px;">EAQ</a></li>
+            <li><a href="#" style="width: 100px;">Log in</a></li>
+        </ul>
+        <br>
+        <h2>Student Registration Form</h2>
+        <hr id="lab">
+        <hr id="leb">
+        <p id="first">Please enter the relevent information <br> Mandatory Field*</p>
+        <label for="district">District(Institute District: Where you want to do your course)*</label><br>
+        <select name="district" id="district" required>
+            <option value="">-- Select One --</option>
+            <option value="">Dhaka</option>
+            <option value="">Netrokona</option>
+            <option value="">Comilla</option>
+        </select> <br>
+        <label for="course">Course*</label><br>
+        <select name="course" id="course" required>\
+            <option value="select">-- Select One --</option>
+            <option value="">Web Design & Development 2024</option>
+            <option value="">Django Developer 2024</option>
+            <option value="">Java Developer 2024</option>
+        </select><br>
+        <label for="name">Student Name </label><br>
+        <input type="text" id="name"><br>
+        <label for="fname">Father's Name</label><br>
+        <input type="text" id="fname"><br>
+        <label for="mname">Mother's Name</label><br>
+        <input type="text" id="mname"><br>
+        <label for="date">Date of Birth: </label>
+        <select name="date" id="month">
+            <option value="month">Month</option>
+            <option value="month">January</option>
+            <option value="month">February</option>
+            <option value="month">March</option>
+            <option value="month">April</option>
+            <option value="month">May</option>
+            <option value="month">June</option>
+            <option value="month">July</option>
+            <option value="month">August</option>
+            <option value="month">September</option>
+            <option value="month">October</option>
+            <option value="month">November</option>
+            <option value="month">December</option>
+        </select>
+        <select name="day" id="day">
+            <option value="day">Day</option>
+            <option value="day">1</option>
+            <option value="day">2</option>
+            <option value="day">3</option>
+            <option value="day">4</option>
+            <option value="day">5</option>
+            <option value="day">6</option>
+            <option value="day">7</option>
+            <option value="day">8</option>
+            <option value="day">9</option>
+            <option value="day">10</option>
+            <option value="day">11</option>
+            <option value="day">12</option>
+            <option value="day">13</option>
+            <option value="day">14</option>
+            <option value="day">15</option>
+            <option value="day">16</option>
+            <option value="day">17</option>
+            <option value="day">18</option>
+            <option value="day">19</option>
+            <option value="day">20</option>
+            <option value="day">21</option>
+            <option value="day">22</option>
+            <option value="day">23</option>
+            <option value="day">24</option>
+            <option value="day">25</option>
+            <option value="day">26</option>
+            <option value="day">27</option>
+            <option value="day">28</option>
+            <option value="day">29</option>
+            <option value="day">30</option>
+            <option value="day">31</option>
+        </select>
+        <select name="year" id="year">
+            <option value="year">Year</option>
+            <option value="year">2003</option>
+            <option value="year">2004</option>
+            <option value="year">2005</option>
+            <option value="year">2006</option>
+            <option value="year">2007</option>
+            <option value="year">2008</option>
+            <option value="year">2009</option>
+            <option value="year">2010</option>
+        </select><br>
+        <label for="gender">Gender*: </label>
+        <input type="radio" name="gender" id="gender">
+        <label for="male" id="male">Male</label>
+        <input type="radio" name="" id="gender">
+        <label for="female" id="male">Female</label><br>
+        <label for="pp">Physically Handicapped*:</label>
+        <input type="radio" name="pp" id="pp">
+        <label for="yes" id="yes">YES</label>
+        <input type="radio" name="pp" id="pp">
+        <label for="no" id="no">NO</label> <br>
+        <label for="email">Email*: </label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com"><br>
+        <label for="number">Phone Number*:</label>
+        <input type="number" name="number" id="number" placeholder="01587765423"><br><br><br><br><br>
+        <hr id="lab">
+        <hr id="leb">
+        <br><br>
+        <label for="identification">Identification Type*:</label><br>
+        <select name="identification" id="identification" required>
+            <option value="">-- Select One --</option>
+            <option value="birth">Birthday Certificate No</option>
+            <option value="birth">NID Card No</option>
+        </select><br>
+        <label for="computer"  id="com">Have any computer?*:</label>
+        <input type="radio" name="computer" id="computer">
+        <label for="yes" id="yes">YES</label>
+        <input type="radio" name="computer" id="computer">
+        <label for="no" id="no">NO</label><br>
+        <label for="picture">Picture:*</label><br>
+        <input type="file" name="picture" id="picture"><br>
+        <label for="picture">Signature:*</label><br>
+        <input type="file" name="picture" id="picture"><br><br>
+        <button type="submit">Submite</button>
+    </form>
+</body>
+</html>
